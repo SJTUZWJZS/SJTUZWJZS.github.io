@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="AGV Home Page">
+    <meta name="author" content="SJTUZWJZS">
+    <link rel="icon" href="./src/sjtu32.ico">
+    <title>AGV Info</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <script type="text/javascript" src="./js/jquery-slim.min.js"></script>
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+    <script type="text/javascript" src="./js/holder.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/vue.min.js"></script>
+
+    <link rel="stylesheet" href="css/agvpage.css">
+
+    <script type="text/javascript" src="./js/agvpage.js"></script>
+    <script type="text/javascript" src="./js/editabledoc.js"></script>
+    <script type="text/javascript" src="./js/articleattach.js"></script>
+
+</head>
+<body>
+    <header class="nav-header">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a v-cloak-nav class="navbar-brand" href="./index.html">
+                <img src="./src/sjtu32W.ico">
+                {{maintitle}}
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a v-cloak-nav class="nav-link zeroth-title" href="./index.html">{{zerothtitle}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a v-cloak-nav class="nav-link first-title" href="./info.html">{{firsttitle}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a v-cloak-nav class="nav-link second-title" href="./tips.html">{{secondtitle}}</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a v-cloak-nav class="nav-link third-title" href="./web.html">{{thirdtitle}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a v-cloak-nav class="nav-link fourth-title" href="./members.html">{{fourthtitle}}</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+</body>
+</html>
