@@ -35,8 +35,34 @@ $(document).ready(function () {
 
         }
     });
+    new Vue({
+        el: '#hardpart',
+        data: {
+            hardpartfirstblocktitle: HardPartFirstBlockTitle,
+            hardpartfirstblockfirstsubtitle: HardPartFirstBlockFirstSubTitle,
+            hardpartfirstblockfirstsubcontent: HardPartFirstBlockFirstSubContent,
+            hardpartfirstblockfirstsubimg: HardPartFirstBlockFirstSubImg,
+            hardpartfirstblocksecondsubtitle: HardPartFirstBlockSecondSubTitle,
+            hardpartfirstblocksecondsubcontent: HardPartFirstBlockSecondSubContent,
+            hardpartfirstblocksecondsubimg: HardPartFirstBlockSecondSubImg,
 
+            hardpartsecondblocktitle: HardPartSecondBlockTitle,
+            hardpartsecondblockfirstsubtitle: HardPartSecondBlockFirstSubTitle,
+            hardpartsecondblockfirstsubcontent: HardPartSecondBlockFirstSubContent,
+            hardpartsecondblockfirstsubimg: HardPartSecondBlockFirstSubImg,
+            hardpartsecondblocksecondsubtitle: HardPartSecondBlockSecondSubTitle,
+            hardpartsecondblocksecondsubcontent: HardPartSecondBlockSecondSubContent,
+            hardpartsecondblocksecondsubimg: HardPartSecondBlockSecondSubImg,
 
+            hardpartthirdblocktitle: HardPartThirdBlockTitle,
+            hardpartthirdblockfirstsubtitle: HardPartThirdBlockFirstSubTitle,
+            hardpartthirdblockfirstsubcontent: HardPartThirdBlockFirstSubContent,
+            hardpartthirdblockfirstsubimg: HardPartThirdBlockFirstSubImg,
+            hardpartthirdblocksecondsubtitle: HardPartThirdBlockSecondSubTitle,
+            hardpartthirdblocksecondsubcontent: HardPartThirdBlockSecondSubContent,
+            hardpartthirdblocksecondsubimg: HardPartThirdBlockSecondSubImg
+        }
+    });
 
 
 
